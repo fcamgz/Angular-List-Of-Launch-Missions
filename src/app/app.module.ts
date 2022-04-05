@@ -6,12 +6,12 @@ import { AppComponent } from './app.component';
 import { MissionlistComponent } from './missionlist/missionlist.component';
 import { MissiondetailsComponent } from './missiondetails/missiondetails.component';
 import { HttpClientModule } from '@angular/common/http';
-import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [AppComponent, MissionlistComponent, MissiondetailsComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, MatButtonModule, BrowserAnimationsModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, MaterialModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

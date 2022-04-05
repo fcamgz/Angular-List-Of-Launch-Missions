@@ -13,4 +13,8 @@ export class FetchService {
   getFlights() {
     return this.http.get(this.url);
   }
+
+  getFlight(id: string){
+    return this.http.get(`${this.url}/${id}`);
+  }
 }

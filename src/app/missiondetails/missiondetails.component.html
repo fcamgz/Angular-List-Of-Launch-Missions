@@ -1,1 +1,39 @@
-<p>missiondetails works!</p>
+<div style="padding: 68px;">
+    <h1 style="text-align: center;">Launch Details</h1>
+    <mat-card class="example-card">
+        <mat-card-title-group>
+          <mat-card-title>{{flight.mission_name}}</mat-card-title>
+          <mat-card-subtitle>Launch Year: {{flight.launch_year}}</mat-card-subtitle>
+          <img mat-card-md-image src="{{flight.links.mission_patch}}" >
+        </mat-card-title-group>
+        <mat-card-content>
+            Launch Details: {{flight.details}}
+        </mat-card-content>
+        <mat-card-content>
+            Rocket Name: {{flight.rocket.rocket_name}}
+        </mat-card-content>
+        <mat-card-content>
+            Launch site: {{flight.launch_site.site_name_long}}
+        </mat-card-content>
+        <mat-card-content>
+            Launch date: {{flight.launch_date_local.split('T')[0]}}
+        </mat-card-content>
+            <div class="example-label" style="display: flex; justify-content: flex-end;">
+                <div class="example-button-container" >
+                  <a href="{{flight.links.video_link}}" mat-fab color="primary" aria-label="Example icon button with a delete icon">
+                    <mat-icon>camera_enhance</mat-icon>
+                  </a>
+                </div>
+                <div class="example-button-container">
+                  <a href="{{flight.links.wikipedia}}" mat-fab color="accent" aria-label="Example icon button with a bookmark icon">
+                    <mat-icon>description</mat-icon>
+                  </a>
+                </div>
+                <div class="example-button-container">
+                  <a href="{{flight.links.article_link}}" mat-fab color="warn" aria-label="Example icon button with a home icon">
+                    <mat-icon>assignment</mat-icon>
+                  </a>
+                </div>
+            </div>
+    </mat-card>
+</div>
