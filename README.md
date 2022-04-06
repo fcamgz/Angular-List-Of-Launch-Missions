@@ -1,4 +1,11 @@
-# 101266304LabTest2Comp3133
+# Angular-List-Of-Launch-Missions
+
+# List of Launches
+![sample image](https://github.com/fcamgz/Angular-List-Of-Launch-Missions/blob/main/images/labtest-2-launchlist.PNG?raw=true)
+
+# Lanch Details
+![sample image](https://github.com/fcamgz/Angular-List-Of-Launch-Missions/blob/main/images/labtest-2-launchdetails.PNG?raw=true)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
