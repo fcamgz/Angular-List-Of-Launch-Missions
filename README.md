@@ -3,7 +3,7 @@
 # List of Launches
 ![sample image](https://github.com/fcamgz/Angular-List-Of-Launch-Missions/blob/main/images/labtest-2-launchlist.png?raw=true)
 
-# Lanch Details
+# Launch Details
 ![sample image](https://github.com/fcamgz/Angular-List-Of-Launch-Missions/blob/main/images/labtest-2-launchdetails.png?raw=true)
 
 
