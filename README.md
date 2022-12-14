@@ -1,10 +1,10 @@
 # Angular-List-Of-Launch-Missions
 
 # List of Launches
-![sample image](https://github.com/fcamgz/Angular-List-Of-Launch-Missions/blob/main/images/labtest-2-launchdetails.png?raw=true)
+![sample image](https://github.com/fcamgz/Angular-List-Of-Launch-Missions/blob/main/images/labtest-2-launchlist.png?raw=true)
 
 # Lanch Details
-![sample image](https://github.com/fcamgz/Angular-List-Of-Launch-Missions/blob/main/images/labtest-2-launchdetails.PNG?raw=true)
+![sample image](https://github.com/fcamgz/Angular-List-Of-Launch-Missions/blob/main/images/labtest-2-launchdetails.png?raw=true)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
